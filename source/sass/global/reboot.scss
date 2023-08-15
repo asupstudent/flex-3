@@ -14,9 +14,10 @@ body {
 html {
   font-style: normal;
   font-weight: 400;
+  min-width: $vp-1200;
   font-size: $fz-default;
-  line-height: 24px;
-  font-family: $ff-placeholder;
+  line-height: 27px;
+  font-family: $ff-roboto;
   color: $color-default-black;
 
   -webkit-font-smoothing: antialiased;

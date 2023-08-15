@@ -1,0 +1,10 @@
+.site-navigation {
+  display: flex;
+  width: 490px;
+  flex-wrap: wrap;
+  gap: 0 55px;
+
+  &-item {
+    padding: 30px 10px 25px 0;
+  }
+}

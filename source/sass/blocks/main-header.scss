@@ -1,0 +1,13 @@
+.main-header {
+  &-nav-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  &-logo {
+    margin-right: 270px;
+    padding-top: 35px;
+    padding-bottom: 25px;
+  }
+}
