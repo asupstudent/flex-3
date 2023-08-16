@@ -1,0 +1,19 @@
+.bestsellers {
+  padding-bottom: 90px;
+
+  &-header {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    justify-items: center;
+  }
+
+  &-title {
+    grid-column-start: 2;
+    font-family: $ff-playfair;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    color: $color-secondary-black;
+  }
+}

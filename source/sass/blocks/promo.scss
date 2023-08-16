@@ -1,0 +1,50 @@
+.promo {
+  padding-bottom: 90px;
+
+  &-wrapper {
+    display: flex;
+  }
+
+  &-text-column {
+    width: 440px;
+  }
+
+  &-img-column {
+    display: flex;
+    width: 730px;
+    font-family: "Prata", sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    color: $color-secondary-black;
+  }
+
+  &-title {
+    font-family: $ff-playfair;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 60px;
+    color: $color-secondary-black;
+  }
+
+  &-sub-title {
+    font-family: $ff-playfair;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    color: $color-secondary-black;
+  }
+
+  &-price {
+    align-self: flex-start;
+  }
+
+  &-img {
+    align-self: center;
+  }
+
+  &-description {
+    align-self: flex-end;
+  }
+}
