@@ -392,6 +392,22 @@ template {
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Playfair Display";
+  src: url("../../fonts/PlayfairDisplay-Regular.woff2") format("woff2"), url("../../fonts/PlayfairDisplay-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Prata";
+  src: url("../../fonts/Prata-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 *,
 *::before,
 *::after {
@@ -1315,6 +1331,99 @@ button,
   font-size: 14px;
   line-height: 16px;
   color: #555248;
+}
+
+.promo {
+  padding-bottom: 90px;
+}
+
+.promo-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.promo-text-column {
+  width: 440px;
+}
+
+.promo-img-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 730px;
+  font-family: "Prata", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  color: #1b1a17;
+}
+
+.promo-title {
+  font-family: "Playfair Display", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 60px;
+  color: #1b1a17;
+}
+
+.promo-sub-title {
+  font-family: "Playfair Display", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  color: #1b1a17;
+}
+
+.promo-price {
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+}
+
+.promo-img {
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+.promo-description {
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+}
+
+.bestsellers {
+  padding-bottom: 90px;
+}
+
+.bestsellers-header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr auto 1fr;
+  grid-template-columns: 1fr auto 1fr;
+  justify-items: center;
+}
+
+.bestsellers-title {
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  font-family: "Playfair Display", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 43px;
+  color: #1b1a17;
+}
+
+.show-more {
+  -ms-flex-item-align: end;
+  -ms-grid-row-align: end;
+  align-self: end;
+  margin-left: auto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #444240;
 }
 
 /* @mixin hover-focus {
