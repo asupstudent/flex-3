@@ -1,0 +1,27 @@
+.news {
+  &-wrapper {
+    display: flex;
+  }
+
+  &-title {
+    font-family: $ff-playfair;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    color: $color-secondary-black;
+  }
+
+  &-text-column {
+    width: 540px;
+  }
+
+  &-img-column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 629px;
+    height: 560px;
+    gap: 10px;
+  }
+}

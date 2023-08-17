@@ -1,0 +1,37 @@
+.main-footer {
+  padding-top: 65px;
+  padding-bottom: 65px;
+  background-color: $color-default-black;
+
+  &-wrapper {
+    display: flex;
+  }
+
+  &-column {
+    width: 240px;
+
+    &:first-child {
+      margin-left: 80px;
+      margin-right: 30px;
+    }
+  }
+
+  &-section-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.07em;
+    color: #ffffff;
+  }
+
+  &-link-wrapper {
+    margin: 0;
+  }
+
+  &-link {
+    margin-top: 15px;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(255, 255, 255, 0.75);
+  }
+}

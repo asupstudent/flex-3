@@ -1,0 +1,24 @@
+.banner {
+  padding-bottom: 90px;
+
+  &-wrapper {
+    display: flex;
+  }
+
+  &-title {
+    font-family: $ff-playfair;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    color: $color-secondary-black;
+  }
+
+  &-img-column {
+    width: 600px;
+  }
+
+  &-text-column {
+    width: 570px;
+  }
+}

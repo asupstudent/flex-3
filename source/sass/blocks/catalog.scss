@@ -1,0 +1,44 @@
+.catalog {
+  &-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 0 15px;
+  }
+
+  &-item {
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+  }
+
+  &-item-link-more {
+    font-family: $ff-playfair;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: $color-secondary-black;
+    margin-top: auto;
+  }
+
+  &-item-link {
+    font-family: $ff-playfair;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: $color-third-black;
+    text-transform: uppercase;
+  }
+
+  &-item-price {
+    font-family: $ff-prata;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: $color-third-black;
+  }
+}
