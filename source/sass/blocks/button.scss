@@ -14,4 +14,10 @@
   &--light-button {
     background-color: $color-secondary-white;
   }
+
+  &--white-button {
+    background-color: $color-default-white;
+    border: 2px solid $color-pagination;
+    color: $color-default-black;
+  }
 }

@@ -1575,6 +1575,11 @@ button,
 .button--light-button {
   background-color: #d4b098;
 }
+.button--white-button {
+  background-color: #ffffff;
+  border: 2px solid #b6b6b6;
+  color: #444240;
+}
 
 .breadcrumbs {
   display: -webkit-box;
