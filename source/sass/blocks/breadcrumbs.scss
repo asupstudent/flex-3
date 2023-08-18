@@ -1,0 +1,16 @@
+.breadcrumbs {
+  display: flex;
+  gap: 0 30px;
+
+  &-item {
+    font-size: 14px;
+    line-height: 16px;
+    color: $color-default-black;
+  }
+
+  &-link {
+    font-size: 14px;
+    line-height: 16px;
+    color: $color-light-black;
+  }
+}

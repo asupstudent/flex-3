@@ -1,4 +1,26 @@
 .catalog {
+  &-header-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-content-wrapper {
+    display: flex;
+  }
+
+  &-column {
+    width: 840px;
+  }
+
+  &-title {
+    font-family: $ff-playfair;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    color: $color-secondary-black;
+  }
+
   &-list {
     display: flex;
     flex-wrap: wrap;
@@ -10,6 +32,32 @@
     display: flex;
     flex-direction: column;
     width: 370px;
+  }
+
+  &-list-compact {
+    gap: 42px 42px;
+  }
+
+  &-item-compact {
+    width: 252px;
+  }
+
+  &-item-promo {
+    background-color: $color-secondary-white;
+  }
+
+  &-item-promo-text {
+    font-family: $ff-playfair;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $color-default-white;
+  }
+
+  &-item-promo-percent {
+    font-size: 45px;
   }
 
   &-item-link-more {

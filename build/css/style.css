@@ -472,7 +472,9 @@ button,
 .user-navigation,
 .catalog-list,
 .social,
-.main-footer-list {
+.main-footer-list,
+.breadcrumbs,
+.pagination {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -1366,6 +1368,30 @@ button,
   color: #444240;
 }
 
+.catalog-header-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.catalog-content-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.catalog-column {
+  width: 840px;
+}
+.catalog-title {
+  font-family: "Playfair Display", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 43px;
+  color: #1b1a17;
+}
 .catalog-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1386,6 +1412,27 @@ button,
       -ms-flex-direction: column;
           flex-direction: column;
   width: 370px;
+}
+.catalog-list-compact {
+  gap: 42px 42px;
+}
+.catalog-item-compact {
+  width: 252px;
+}
+.catalog-item-promo {
+  background-color: #d4b098;
+}
+.catalog-item-promo-text {
+  font-family: "Playfair Display", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.catalog-item-promo-percent {
+  font-size: 45px;
 }
 .catalog-item-link-more {
   font-family: "Playfair Display", "Arial", sans-serif;
@@ -1527,6 +1574,50 @@ button,
 }
 .button--light-button {
   background-color: #d4b098;
+}
+
+.breadcrumbs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0 30px;
+}
+.breadcrumbs-item {
+  font-size: 14px;
+  line-height: 16px;
+  color: #444240;
+}
+.breadcrumbs-link {
+  font-size: 14px;
+  line-height: 16px;
+  color: #727a82;
+}
+
+.filters {
+  width: 240px;
+  margin-right: 60px;
+}
+
+.pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 0 10px;
+  width: 400px;
+  margin-left: auto;
+}
+.pagination-item {
+  padding: 10px;
+}
+.pagination-link {
+  font-size: 14px;
+  line-height: 21px;
+  color: #b6b6b6;
 }
 
 /* @mixin hover-focus {
