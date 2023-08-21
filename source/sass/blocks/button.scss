@@ -20,4 +20,9 @@
     border: 2px solid $color-pagination;
     color: $color-default-black;
   }
+
+  &--black-button {
+    background-color: $color-secondary-black;
+    color: $color-default-white;
+  }
 }

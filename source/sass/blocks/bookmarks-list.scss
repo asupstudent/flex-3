@@ -1,0 +1,15 @@
+.bookmarks-list {
+  display: flex;
+  gap: 0 40px;
+
+  &-item {
+    padding: 20px 0;
+  }
+
+  &-item-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: $color-default-black;
+  }
+}
